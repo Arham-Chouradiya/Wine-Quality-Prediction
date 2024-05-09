@@ -24,14 +24,10 @@ The dataset contains the following features:
 - Quality: The quality of wine, typically represented as a score ranging from 3 to 8.
 
 **Machine Learning Approach:**
-Various machine learning algorithms will be explored to build the predictive model. These may include but are not limited to:
-- Linear Regression
-- Random Forest
-- Support Vector Machines (SVM)
-- Gradient Boosting
+The Random Forest Classifier will be utilized to build the predictive model. Random Forest is a powerful ensemble learning method that combines multiple decision trees to improve prediction accuracy and reduce overfitting. It's well-suited for this task due to its ability to handle both numerical and categorical features, as well as its robustness to noisy data and feature interactions.
 
 **Evaluation Metrics:**
-The performance of the models will be evaluated using appropriate metrics such as mean squared error, mean absolute error, and R-squared score.
+The performance of the models will be evaluated using accuracy score.
 
 **Instructions:**
 1. Ensure that all necessary libraries and dependencies are installed. You can install them using `pip install -r requirements.txt`.
@@ -39,9 +35,3 @@ The performance of the models will be evaluated using appropriate metrics such a
 3. Follow along with the provided code comments and markdown cells for a clear understanding of each step in the process.
 4. Experiment with different machine learning algorithms and hyperparameters to improve the model's performance.
 5. Feel free to reach out for any questions or suggestions regarding the project.
-
-**Contributors:**
-- [Your Name/Organization]
-
-**License:**
-This project is licensed under the [License Name]. See the LICENSE file for details.
